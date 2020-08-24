@@ -1,0 +1,32 @@
+name: oled  # for oled calculation and analysis
+channels:
+  - anaconda
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7.3=h8c8aaf0_1
+  - matplotlib=3.0.3=py37hc8f65d3_0
+  - numpy
+  - pandas
+  - scipy
+  - statsmodels
+  - seaborn
+  - palettable
+  - pywin32=223=py37hfa6e2cd_1
+  - pip
+  - tqdm=4.32.1=py_0
+  - colour-science=0.3.13=py_0
+  - ipywidgets=7.4.2=py37_0
+  - jupyter
+  - ipykernel
+  - jupyter_contrib_nbextensions
+  - jupyter_client=5.2.4=py37_0
+  - jupyter_console=6.0.0=py37_0
+  - jupyter_contrib_core=0.3.3=py_2
+  - jupyter_contrib_nbextensions=0.5.1=py37_0
+  - jupyter_core=4.4.0=py37_0
+  - jupyter_highlight_selected_word=0.2.0=py37_1000
+  - jupyter_latex_envs=1.4.4=py37_1000
+  - jupyter_nbextensions_configurator=0.4.1=py37_0
+  - pip:
+    - tmm==0.1.7
